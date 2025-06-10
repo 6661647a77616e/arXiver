@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "arXiv Mobile",
+    "slug": "arxiver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arxiver.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arxiver.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5d0beba7-a19c-45a8-8572-4ca247b54e8f"
+      }
+    }
+  }
+}
